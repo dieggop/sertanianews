@@ -1,0 +1,170 @@
+/* This stylesheet is used to style the public-facing components of the plugin. */
+#map_elements,
+#map {
+	width:100%;
+	height: 500px;
+}
+
+.custom-map-container {
+	margin-bottom: 20px;
+}
+body .map-box {
+	background-color: #fff;
+}
+
+body .map-box h2,
+body .map-box a h2 {
+	padding: 5px 25px 0 25px;
+	margin: 20px 0px 0px 0px;
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 21px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	display: inline-block;
+}
+
+body .map-box a {
+	text-decoration: none;
+	border: 0px;
+}
+
+body .map-box a h2:hover { color: #666; }
+
+body .map-box ul,
+body .map-box p {
+	padding: 6px 25px 25px;
+	font-size: 15px;
+	margin: 0 0 15px 0;
+	line-height: 25px;
+}
+body .map-box ul.post-series-links {
+	margin: 0 0 15px 0;
+	font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.infoBox .date {
+padding: 0 25px 0 25px;
+   color: #888;
+   font-weight: 500;
+   margin: 0;
+   display: block;
+   text-transform: uppercase;
+   font-size: 13px;
+   margin-top: -4px;
+}
+
+
+.infoBox > img {
+	position: absolute !important;
+	right: 0px;
+	top: 0px;
+}
+
+/* Close Button */
+.infoBox-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	z-index: 999;
+	text-align: center;
+	line-height: 38px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 500;
+	height: 38px;
+	width: 38px;
+	background-color: #fff;
+	color: #333;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	font-family: "FontAwesome";
+}
+
+.infoBox-close:hover {
+	color: #fff;
+	background-color: #3685cf;
+}
+
+
+/* Read More Icon */
+.map-box-icon {
+	height: 38px;
+	width: 38px;
+	position: absolute;
+	bottom:0;
+	right:0;
+	background-color: #3685cf;
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	z-index: 101;
+	text-align: center;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	transform: translateX(50%);
+	opacity:0;
+	visibility: hidden;
+}
+
+.map-box-icon:before {
+	content: "";
+	font-family: "FontAwesome";
+	position: relative;
+	top: 6px;
+	display: block;
+}
+
+.map-box-image:hover .map-box-icon {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateX(0);
+}
+
+.map-box-image {
+	position: relative;
+	overflow: hidden;
+	display: block;
+}
+
+.infoBox {
+	-webkit-animation: fadeIn 300ms; /* Chrome, Safari, Opera */
+	animation: fadeIn 300ms;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+body .infoBox:after {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 40px;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+}

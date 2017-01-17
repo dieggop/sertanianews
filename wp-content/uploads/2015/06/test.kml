@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Miejsca tymczasowe</name>
+	<open>1</open>
+	<Document>
+		<name>Untitled layer</name>
+		<Style id="line-FFCC00-5-highlight">
+			<LineStyle>
+				<color>ff00ccff</color>
+				<width>8</width>
+			</LineStyle>
+		</Style>
+		<Style id="line-CC66CC-5-highlight">
+			<LineStyle>
+				<color>ffcc66cc</color>
+				<width>8</width>
+			</LineStyle>
+		</Style>
+		<Style id="line-0000FF-5-normal">
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="line-00CCCC-5-highlight">
+			<LineStyle>
+				<color>ffcccc00</color>
+				<width>8</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id="line-FFCC00-5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-FFCC00-5-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-FFCC00-5-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="line-33FF33-5-nodesc">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-33FF33-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-33FF33-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<StyleMap id="line-CC66CC-5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-CC66CC-5-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-CC66CC-5-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="line-0000FF-5-highlight">
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>8</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id="line-00CCCC-5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-00CCCC-5-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-00CCCC-5-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="line-FF0000-5-normal">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="line-33FF33-5-nodesc-highlight">
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff33ff33</color>
+				<width>8</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id="line-FF0000-5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-FF0000-5-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-FF0000-5-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="line-33FF33-5-nodesc-normal">
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+			<LineStyle>
+				<color>ff33ff33</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<StyleMap id="line-0000FF-5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-0000FF-5-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-0000FF-5-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="line-FF0000-5-highlight">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>8</width>
+			</LineStyle>
+		</Style>
+		<Style id="line-FFCC00-5-normal">
+			<LineStyle>
+				<color>ff00ccff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="line-CC66CC-5-normal">
+			<LineStyle>
+				<color>ffcc66cc</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="line-00CCCC-5-normal">
+			<LineStyle>
+				<color>ffcccc00</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Placemark>
+			<name>Traseul de creasta</name>
+			<description>Cabana Curmatura - Saua Crapaturii - Vf Turnu - Saua Padinei Inchise - Vf Padina Popii - Vf Ascutit - cabana Curmatura</description>
+			<styleUrl>#line-0000FF-5</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					25.255069,45.550294,0 25.255058,45.550895,0 25.25527,45.55144,0 25.25568,45.55254999999999,0 25.25572,45.5542,0 25.25594,45.55514,0 25.2549,45.55547,0 25.254,45.55587,0 25.25424,45.55615999999999,0 25.25335,45.55698,0 25.25175,45.55695000000002,0 25.25123,45.55647,0 25.24997,45.55577,0 25.24918,45.55545,0 25.24817,45.55524000000001,0 25.24779,45.55533,0 25.24672,45.55484,0 25.24578,45.55423999999999,0 25.24516,45.55374000000001,0 25.24443,45.55332000000001,0 25.24293,45.55284,0 25.24398,45.55215,0 25.24546000000001,45.55216,0 25.2455,45.55140999999999,0 25.24653,45.55132,0 25.24675,45.55045,0 25.24812,45.55022,0 25.24851,45.55,0 25.2502,45.54967000000001,0 25.25248,45.55020999999999,0 25.253266,45.550354,0 25.254221,45.550504,0 25.254779,45.550219,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Traseul Piatra Mica</name>
+			<description>Cabana Curmatura - Vf Piatra Mica - Poiana Zanoaga - Cabana Curmatura</description>
+			<styleUrl>#line-FFCC00-5</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					25.255283,45.550204,0 25.255315,45.550925,0 25.25587,45.55248,0 25.25593,45.55384,0 25.25926,45.55326999999999,0 25.26078,45.55293,0 25.26263,45.55237000000001,0 25.26188,45.55142,0 25.26186,45.55031,0 25.26246,45.54940000000001,0 25.26267,45.54849,0 25.25977,45.54656,0 25.25898000000001,45.54639,0 25.25834,45.54666,0 25.25774,45.54704,0 25.25748000000001,45.54759,0 25.25771,45.54831,0 25.25711,45.54848,0 25.25728,45.54899,0 25.255616,45.550008,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Zarnesti - Cabana Curmatura</name>
+			<styleUrl>#line-33FF33-5-nodesc</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					25.3164,45.56107999999999,0 25.30563,45.55108,0 25.29979000000001,45.54702,0 25.29872,45.54549,0 25.29666,45.54393,0 25.29584,45.54188,0 25.29507,45.54017000000001,0 25.29211,45.53632,0 25.29104,45.53365,0 25.28919,45.53289000000001,0 25.28773,45.5316,0 25.28713,45.53025000000001,0 25.28649,45.52917000000001,0 25.28554,45.52932,0 25.28185,45.53142,0 25.2773,45.53346,0 25.27791,45.53698000000001,0 25.27782,45.53903,0 25.27593,45.54038,0 25.27263,45.54248,0 25.26932,45.54311,0 25.26336,45.54368,0 25.25902,45.54617999999999,0 25.257547,45.547048,0 25.257332,45.547604,0 25.257493,45.54826499999999,0 25.257,45.548528,0 25.257021,45.549009,0 25.255508,45.549866,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Curmatura - Zarnesti</name>
+			<description>Curmatura - Prapastiile Zarnestilor - Zarnesti</description>
+			<styleUrl>#line-FF0000-5</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					25.285635,45.52926,0 25.284133,45.52865900000001,0 25.282888,45.527877,0 25.28228800000001,45.526314,0 25.280657,45.525051,0 25.279498,45.52496099999999,0 25.278769,45.52436000000001,0 25.278769,45.523788,0 25.277824,45.52375799999999,0 25.276151,45.524059,0 25.274949,45.52375799999999,0 25.273876,45.52318700000001,0 25.272717,45.523127,0 25.270357,45.523518,0 25.269713,45.5243,0 25.269456,45.525021,0 25.269456,45.525743,0 25.268812,45.526525,0 25.268297,45.526855,0 25.266023,45.52862900000001,0 25.265379,45.528419,0 25.264606,45.52893,0 25.263448,45.528539,0 25.260744,45.52874899999999,0 25.258727,45.531064,0 25.256109,45.532147,0 25.255766,45.534191,0 25.251131,45.537377,0 25.251989,45.54405,0 25.250015,45.546274,0 25.250015,45.54729600000001,0 25.253094,45.549956,0 25.2542,45.55027100000001,0 25.254607,45.55006100000001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Curmatura - Prapastiile Zarnestilor</name>
+			<description>Traseul marcat</description>
+			<styleUrl>#line-CC66CC-5</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					25.264306,45.52926,0 25.265036,45.530373,0 25.26392,45.531575,0 25.261431,45.532537,0 25.259628,45.53349899999999,0 25.25847,45.53524300000001,0 25.25744,45.537317,0 25.257096,45.54032299999999,0 25.255337,45.543509,0 25.253363,45.54528200000001,0 25.251904,45.54729600000001,0 25.252333,45.54837800000001,0 25.253277,45.549836,0 25.254178,45.550121,0 25.2545,45.550001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Curmatura - La Table</name>
+			<description>Traseu spre &quot;la Table&quot;</description>
+			<styleUrl>#line-00CCCC-5</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					25.25471400000001,45.550151,0 25.254275,45.550377,0 25.252955,45.550159,0 25.249457,45.547476,0 25.24988700000001,45.545433,0 25.25044400000001,45.54387,0 25.249329,45.542908,0 25.247827,45.541044,0 25.247569,45.540383,0 25.24353500000001,45.53500200000001,0 25.242033,45.53617499999999,0 25.241175,45.53659600000001,0 25.239501,45.53713700000001,0 25.238171,45.536686,0 25.237098,45.535543,0 25.236626,45.53386000000001,0 25.236497,45.533259,0 25.23675400000001,45.532718,0 25.235167,45.531936,0 25.233622,45.530974,0 25.233879,45.52811800000001,0 25.23448,45.527126,0 25.234051,45.526464,0 25.23272,45.525292,0 25.232248,45.524149,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</Folder>
+</kml>

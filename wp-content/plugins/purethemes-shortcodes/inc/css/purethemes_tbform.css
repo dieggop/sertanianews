@@ -1,0 +1,87 @@
+#purethemes-popup-header {
+    background: #01ADFF;
+    border-bottom: 1px solid #01ADFF;
+    box-shadow: 0 -8px 17px rgba(0, 0, 0, 0.2) inset;
+    padding: 10px;
+}
+
+#purethemes-popup {
+    max-height: 500px;
+    padding: 10px;
+    min-height: 400px;
+}
+
+#purethemes-popup-header label {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+#purethemes-popup-form {
+    padding: 15px;
+}
+#purethemes-popup-form tbody.multi {
+    border: 0px;
+    background: transparent;
+    padding: 10px
+}
+#purethemes-popup-header select {
+    padding: 3px;
+    font-weight: normal;
+    color: #555;
+    border-radius: 0px;
+}
+
+#purethemes-spinner {
+    background: url(../images/ajax-loader.gif) no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#TB_window a.ptsc-insert,
+#TB_window a.ptsc-insert:hover,
+#TB_window a.ptsc-insert:visited,
+#TB_window a.ptsc-insert:link {
+    color: #fff;
+}
+
+#TB_window a.ptsc-insert {
+    margin-left: 165px !important;
+    margin-top: 20px;
+}
+
+#TB_window {
+    top: 0;
+    height: 100%;
+    margin-top: 0 !important;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#TB_ajaxContent {
+    padding: 0px;
+}
+
+tbody.multi {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+}
+
+tbody.multi tr.top:last-child {
+    border-bottom: 5px solid #ddd;
+}
+
+
+i.mce-i-pt_button:before {
+    content: "\f468";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font: 400 20px/1 dashicons!important;
+    speak: none;
+    vertical-align: top;
+    color: #01adff
+}

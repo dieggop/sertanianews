@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>bezmarkerow.kml</name>
+	<StyleMap id="line-00CCCC-5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-00CCCC-5-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-00CCCC-5-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-00CCCC-5-highlight">
+		<LineStyle>
+			<color>ffcccc00</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-00CCCC-5-normal">
+		<LineStyle>
+			<color>ffcccc00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Curmatura - La Table</name>
+		<description>Traseu spre &quot;la Table&quot;</description>
+		<styleUrl>#line-00CCCC-5</styleUrl>
+		<ExtendedData>
+		</ExtendedData>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				25.25471400000001,45.550151,0 25.254275,45.550377,0 25.252955,45.550159,0 25.249457,45.547476,0 25.24988700000001,45.545433,0 25.25044400000001,45.54387,0 25.249329,45.542908,0 25.247827,45.541044,0 25.247569,45.540383,0 25.24353500000001,45.53500200000001,0 25.242033,45.53617499999999,0 25.241175,45.53659600000001,0 25.239501,45.53713700000001,0 25.238171,45.536686,0 25.237098,45.535543,0 25.236626,45.53386000000001,0 25.236497,45.533259,0 25.23675400000001,45.532718,0 25.235167,45.531936,0 25.233622,45.530974,0 25.233879,45.52811800000001,0 25.23448,45.527126,0 25.234051,45.526464,0 25.23272,45.525292,0 25.232248,45.524149,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
